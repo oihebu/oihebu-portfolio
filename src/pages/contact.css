@@ -1,0 +1,101 @@
+:root {
+    --base-color: white;
+    --base-variant: #e8e8e8;
+    --text-color: black;
+    --accent-color:#b1a8df;
+    --logo-color: black;
+    --link-hover-color: white;
+    --highlight-color:#ead3ef;
+    --menu-color: black;
+    --modal-bg: #f9f9f9;
+    --modal-bg-outline: #dddddd;
+}
+
+.darkmode {
+    --base-color: #51485b;
+    --base-variant: #675d71;
+    --text-color: #efefef;
+    --accent-color:#b1a8df;
+    --logo-color: #efefef;
+    --link-hover-color: #090909;
+    --highlight-color:#331f49;
+    --menu-color: #efefef;
+    --modal-bg: #51485b;
+    --modal-bg-outline: #b5abb9;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    max-width: 800px;
+    width: 100%;
+    background-color: var(--base-color) ;
+    padding: 25px 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    color: var(--text-color);
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+form h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+form .input-box {
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.input-box .field {
+    width: 90%;
+    height:  10px;
+    background: var(--base-color);
+    border: 2px solid var(--base-variant);
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: var(--text-color);
+    margin-top: 10px;
+
+}
+
+.input-box .field.mess {
+    height: 200px;
+    resize: none;
+}
+
+form button {
+    width: 95%;
+    height: 55px;
+    background: #b1a8df;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0. 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: .5s;
+}
+
+form button:hover {
+    background-color: #e5d2eb;
+    color: #000;
+}
+
+#form-button {
+    padding-left: 10%;
+    padding-right: 10%;
+}

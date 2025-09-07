@@ -10,14 +10,14 @@ export function Navbar(){
         <div className="navbar">
 
             <div id="logo">
-                <h1><Link to="#">otito ihebuzor</Link></h1>
+                <h1><Link>otito ihebuzor</Link></h1>
             </div>
 
             <div>
                 <ul id ="menuList">
                 <li><Link to="#work">work</Link></li>
                 <li><Link to="#about">about</Link></li>
-                <li><Link to="#resume">resume</Link></li>
+                <li><Link to="">resume</Link></li>
                 <li><Link to="/contact">contact</Link></li>
                 </ul>
             </div>
